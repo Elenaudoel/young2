@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: bordex-box;
+}
+
+section {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    font-size: 40px;
+}
+
+header {
+    width: 100%;
+    background-color: blueviolet;
+    height:150px;
+}
+
+main {
+    width: 100%;
+    background-color: yellow;
+    height: 400px
+    height: 400px
+}
+
+footer {
+    width: 100%;
+    background-color: green;
+    height:40px;
+}
+
+header div h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+
+main .ingredientes-conteudo {
+    background-color: darkblue;
+    width: 30%
+}
+
+main .modo-preparo-conteudo{
+    background-color:  white;
+    width: 70%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 16px;
+    font-style: italic;
+}
+
