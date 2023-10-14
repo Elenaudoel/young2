@@ -1,0 +1,18 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
