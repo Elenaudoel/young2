@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', 'sans-serif';
+    font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -14,7 +13,7 @@ html {
 
 body {
     text-align: center;
-    background-color: yellow;
+    background-color: rgb(237, 237, 59);
     min-height: 100vh;
 }
 
@@ -25,34 +24,41 @@ main {
 
 .pokedex {
     width: 100%;
-    max-heigth: 42rem;
+    max-height: 42rem;
 }
 
 .poki_img {
     position: absolute;
     bottom: 55%;
-    left:50%;
+    left: 50%;
     transform: translate(-63%, 40%);
 }
 
 .info_poke {
     position: absolute;
     top: 53%;
-    right: 30%
-    color gray;
-    font-size: clamp(8px, 5vw, 25px);
+    right: 30%;
+    color: gray;
+    font-weight: bold;
+    font-size: clamp(0.8rem, 5vw, 2rem);
 }
 
 .name_poke {
     text-transform: capitalize;
-
 }
 
 .forms {
     position: absolute;
-    top: 65%
-    left: 15%
-    width: 65%
+    top: 65%;
+    left: 15%;
+    width: 65%;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 65%;
     display: flex;
     gap: 2rem;
     transform: translate(-57%, 0);
@@ -64,16 +70,17 @@ button {
     border: 0.2rem solid black;
     border-radius: 0.5rem;
     font-weight: bold;
-    font-size: clamp(0.8rem 0 rgb(41, 40, 40), -0.4rem 0.6rem 0 black;)
+    font-size: clamp(0.8rem, 5vw, 1rem);
+    box-shadow: -0.2rem 0.3rem 0 rgb(41, 40, 40), -0.4rem 0.6rem 0 black;
 }
 
 button:active {
-    box-shadow: insent -0.4rem 0.4rem 0 rgb(41, 40, 40);
-    font--size: 0.9rem
+    box-shadow: inset -0.4rem 0.4rem 0 rgb(41,40,40);
+    font-size: 0.9rem;
 }
 
 .input_search {
-    width: 100%
+    width: 100%;
     outline: none;
     padding: 5%;
     border: 0.2rem solid black;
@@ -83,16 +90,6 @@ button:active {
     font-size: clamp(0.8rem, 5vw, 1rem);
     box-shadow: -0.3rem 0.4rem 0 gray, -0.5rem 0.7rem 0 black;
 }
-
-.buttons {
-    position: absolute;
-}
-
-
-
-
-
-
 
 
 
