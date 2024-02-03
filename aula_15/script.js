@@ -1,0 +1,7 @@
+const CEP = document.querySelector('.input-cep')
+const ESTADO = document.querySelector('.input-estado')
+const CIDADE = document.querySelector('.input-cidade')
+const LOGRADOURO = document.querySelector('.input-logra')
+const NUMERO = document.querySelector('.input-num')
+const BAIRRO = document.querySelector('.input-bairro')
+const BTN = document.querySelector('.ent-btn')
